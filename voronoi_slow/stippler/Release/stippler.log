@@ -1,0 +1,26 @@
+﻿Build started 2015-11-24 오전 1:42:45.
+     1>Project "C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\voronoi_slow\stippler\stippler.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Boost\boost_1_56_0 /I"C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\voronoi_slow\picopng" /Zi /nologo /W3 /WX- /Ox /Oi /Ot /Oy- /GL /D WIN32 /D STIPPLER_LIBRARY /D NDEBUG /D _WINDOWS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS- /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stippler.cpp bitmap.cpp stippler_api.cpp VoronoiDiagramGenerator.cpp
+         stippler.cpp
+     1>stippler.cpp(63): warning C4244: 'argument' : conversion from 'time_t' to 'const uint32_t', possible loss of data
+         bitmap.cpp
+         stippler_api.cpp
+     1>stippler_api.cpp(38): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+         VoronoiDiagramGenerator.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\voronoi_slow\Release\stippler.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Boost\boost_1_56_0\lib32-msvc-12.0" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\voronoi_slow\Release\stippler.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\voronoi_slow\Release\stippler.lib" /MACHINE:X86 /SAFESEH /DLL Release\stippler.obj
+         Release\bitmap.obj
+         Release\stippler_api.obj
+         Release\VoronoiDiagramGenerator.obj
+         "C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\voronoi_slow\Release\picopng.lib"
+            Creating library C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\voronoi_slow\Release\stippler.lib and object C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\voronoi_slow\Release\stippler.exp
+         Generating code
+         Finished generating code
+         stippler.vcxproj -> C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\voronoi_slow\Release\stippler.dll
+     1>Done Building Project "C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\voronoi_slow\stippler\stippler.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.35
